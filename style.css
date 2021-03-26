@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+  }
+  
+  #firstp{
+    font-size:80px;
+    text-align:center;
+    word-spacing:10px;
+    font-variant:small-caps;
+  }
+body{
+    text-align:center; 
+  }
+ #firstp{
+    word-spacing: 10px; font-variant: small-caps; text-align: center; font-size: 80px; 
+  }
+  #nametext{
+    font-size:50px;
+  }
+   #images { 
+    width: 50px;
+  }
+  #album {
+    width: 50px;
+  }
+  

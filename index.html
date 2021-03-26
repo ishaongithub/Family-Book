@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title> Family </title> 
+  </head>
+  <body>
+    <h1 id="firstp"> My Family Book</h1>
+    <img id="album"
+         src= "https://images-na.ssl-images-amazon.com/images/I/51wZfvZev-L._SX258_BO1,204,203,200_.jpg">
+    <div> <button type="button" onclick="nextslide()"> Next </button> </div>
+  <p id="nametext"> Family Book</p>
+    </body>
+    <script>
+        var names = [ 
+  "Isha", 
+  "Radha", 
+  "Ram",
+]; var images = [ 
+  "Isha.jpg", 
+  "Radha.jpg",
+  "Ram.jpg",
+]; 
+var i = 0; function nextslide() { 
+    document.getElementById("nametext").innerHTML = names[i]; 
+    document.getElementById("album").src = images[i]; i++;
+console.log(images);
+console.log(names);
+}
+    </script>
+</html>
